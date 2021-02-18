@@ -21,7 +21,7 @@
 <meta name="keywords" content="">
 <meta name="gridea-theme" content="Card">
 <meta name="spider" content="https://nmsl.sbjxw.网址">
-<meta name="UpdateTime" content="1613634892438">
+<meta name="UpdateTime" content="1613635492229">
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
@@ -116,16 +116,17 @@
                             background-color: #fafafa;
                         }
                         
-                        #spnBtn:hover {
+                        #btnStyle:hover {
                             transition: all .3s ease;
-                            color: #fff;
-                            background-color: #6b6b6b;
+                            /*color: #fff;*/
+                            /*background-color: #6b6b6b;*/
+                            background-color: #eaeaea;
                             /*#0092ee*/
                             /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
                         }
                         
-                        #spnBtn {
-                            background-color: #efefef;
+                        #btnStyle {
+                            /*background-color: #efefef;*/
                             font-size: 14px;
                             transition: all .3s ease;
                         }
@@ -158,6 +159,9 @@
         </a>
         <nav id="menu-main" class="menu-main">
             <ul>
+                <li id="menu-item" class="menu-item">
+                    <div id="tp-weather-widget"></div>
+                </li>
                 
                     <li id="menu-item" class="menu-item">
                         <a href="/">
@@ -185,13 +189,13 @@
                     
             </ul>
         </nav>
-        <form id="gridea-search-form" class="searchform" data-update="1613634892438" action="/search/index.html">
+        <form id="gridea-search-form" class="searchform" data-update="1613635492229" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
     </div>
     <div id="mobile-menu">
-        <form id="gridea-search-form" class="mobile-searchform" data-update="1613634892438" action="/search/index.html">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1613635492229" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
@@ -394,48 +398,32 @@
                             </script>
                             
                                 
-                                    <script>
-                                        App.weather();
-                                    </script>
-                                    <li class="lite-item">
-                                        <header class="lite-item-header">
-                                            <h3 class="lite-item-title">&#x26C5;&#x5929;&#x6C14;</h3>
-                                        </header>
-                                        <div class="textwidget">
-                                            <div id="tp-weather-widget"></div>
-                                        </div>
-                                    </li>
                                     
                                         
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </li>
                                             
                                                 
                                                     <li class="lite-item">
                                                         <header class="lite-item-header">
-                                                            <h3 class="lite-item-title">
-                                                                
-                                                            </h3>
+                                                            <h3 class="lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
                                                         </header>
                                                         <div class="textwidget">
-                                                            <div id="textwidget-box" style="width:100%; height:auto;">
+                                                            
                                                                 
-                                                            </div>
+                                                                        
                                                         </div>
                                                     </li>
-                                                    
-                                                        
-                                                            <li class="lite-item">
-                                                                <header class="lite-item-header">
-                                                                    <h3 class="lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
-                                                                </header>
-                                                                <div class="textwidget">
-                                                                    
-                                                                        
-                                                                            <p onclick="javascript:top.location='https://blog.itjoker.cn'"><span class="link_a"><a href="https://blog.itjoker.cn" alt="ITJoker ">ITJoker -ITJoker&#39;s Blog</a></span></p>
-
-                                                                            
-                                                                                
-                                                                </div>
-                                                            </li>
     </ul>
 </div>
         </div>
@@ -494,6 +482,9 @@
         var OriginTitile = document.title;
         
         App.hitokoto();
+        
+        
+        App.weather();
         
         App.clearLog();
         App.outputlog();
