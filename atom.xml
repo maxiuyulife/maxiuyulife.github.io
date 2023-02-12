@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://maxiuyulife.github.io/</id>
     <title>岫玉的小栈</title>
-    <updated>2023-02-12T08:11:37.258Z</updated>
+    <updated>2023-02-12T08:12:39.924Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://maxiuyulife.github.io/"/>
     <link rel="self" href="http://maxiuyulife.github.io/atom.xml"/>
@@ -10,41 +10,6 @@
     <logo>http://maxiuyulife.github.io/images/avatar.png</logo>
     <icon>http://maxiuyulife.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, 岫玉的小栈</rights>
-    <entry>
-        <title type="html"><![CDATA[模拟试题词汇]]></title>
-        <id>http://maxiuyulife.github.io/mo-ni-shi-ti-ci-hui/</id>
-        <link href="http://maxiuyulife.github.io/mo-ni-shi-ti-ci-hui/">
-        </link>
-        <updated>2023-02-12T08:07:07.000Z</updated>
-        <content type="html"><![CDATA[<table>
-<thead>
-<tr>
-<th>attractions<strong>景点</strong></th>
-<th>individuals<strong>个人</strong></th>
-<th>minnimal<strong>极小值</strong></th>
-<th>track<strong>追踪</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>extends<strong>延申</strong></td>
-<td>involuntary<strong>无意识做出的</strong></td>
-<td>rarely<strong>很少</strong></td>
-<td>verifies<strong>验证</strong></td>
-<td></td>
-</tr>
-<tr>
-<td>fundamental<strong>基本面</strong></td>
-<td>merely<strong>仅仅</strong></td>
-<td>recognize<strong>识别</strong></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>http://maxiuyulife.github.io/hello-gridea/</id>
