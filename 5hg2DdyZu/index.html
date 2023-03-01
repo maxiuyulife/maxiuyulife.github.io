@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html id="bg">
+
+<head>
+    <meta charset="utf-8" />
+<!--
+    * @Theme Card
+    * @Author admin@itjoker.cn
+    * @Link https://blog.itjoker.cn
+-->
+
+<title>
+    岫玉的小栈
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="岫玉的小栈">
+<meta name="description" content="你看那些花儿，终有一天会为我开放。">
+<meta name="keywords" content="">
+<meta name="gridea-theme" content="Card">
+<meta name="spider" content="https://nmsl.sbjxw.网址">
+<meta name="UpdateTime" content="1677667644123">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<!--<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/Card/script.min.js"></script>
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/main.min.css" />-->
+<script src="https://maxiuyulife.github.io/media/js/script.min.js"></script>
+<link rel="stylesheet" href="https://maxiuyulife.github.io/media/css/main.min.css" />
+<link rel="stylesheet" href="https://maxiuyulife.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/iconfont.css" />
+<!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/love.min.js"></script>
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script>
+    $().ready(
+        function() {
+            if (window.localStorage.getItem('first_visit') != 1) {
+                window.localStorage.setItem('theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                window.localStorage.setItem('first_visit', 1);
+            }
+            var themeIcon = document.getElementById("themeIcon");
+            var currentTheme = window.localStorage.getItem('theme');
+            if (currentTheme == 'dark') {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = mediaCssText;
+                }
+                document.documentElement.style.cssText = cssText;
+                document.getElementsByClassName('card-bg')[0].style.cssText = mediaCssText;
+                themeIcon.classList.remove('Card-moon');
+                themeIcon.classList.add('Card-sun');
+            } else {
+                imgList = document.getElementsByTagName('img');
+                for (let i = 0; i < imgList.length; i++) {
+                    imgList[i].style.cssText = '';
+                }
+                document.documentElement.style.cssText = '';
+                document.getElementsByClassName('card-bg')[0].style.cssText = '';
+                document.getElementsByTagName('html')[0].setAttribute('id', 'bg');
+                themeIcon.classList.remove('Card-sun');
+                themeIcon.classList.add('Card-moon');
+            }
+        }
+    )
+</script>
+
+    <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+    
+        
+            <script>
+                (function() {
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    } else {
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
+            
+                    <style>
+                        .Card-certify {
+                            color: #0091e4 !important;
+                        }
+                        
+                        #foot {
+                            color: #666666;
+                        }
+                        
+                        #menu-item:hover {
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                            border-bottom-color: rgba(0, 0, 0, .6);
+                        }
+                        
+                        .gray {
+                            -webkit-filter: grayscale(100%);
+                            /* webkit */
+                            -moz-filter: grayscale(100%);
+                            /*firefox*/
+                            -ms-filter: grayscale(100%);
+                            /*ie9*/
+                            -o-filter: grayscale(100%);
+                            /*opera*/
+                            filter: grayscale(100%);
+                            filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
+                            filter: gray;
+                            /*ie9- */
+                        }
+                        
+                        .lite-item,
+                        #header {
+                            opacity: 1;
+                        }
+                        
+                        .lite-item {
+                            background-color: #fafafa;
+                        }
+                        
+                        #btnStyle:hover {
+                            transition: all .3s ease;
+                            /*color: #fff;*/
+                            /*background-color: #6b6b6b;*/
+                            background-color: #eaeaea;
+                            /*#0092ee*/
+                            /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
+                        }
+                        
+                        #btnStyle {
+                            /*background-color: #efefef;*/
+                            font-size: 14px;
+                            transition: all .3s ease;
+                        }
+                        
+                        .link_a:hover {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            color: #fff;
+                            border-left: 8px solid #6b6b6b;
+                            padding: 5px;
+                            transition: all .3s ease;
+                        }
+                        
+                        html {
+                            width: 100%;
+                            height: 100%;
+                            background-attachment: fixed;
+                            background-repeat: no-repeat;
+                        }
+                    </style>
+</head>
+
+<body>
+    <header id="header">
+
+    <div id="pc-menu">
+        <a id="menu-bar" class="Card Card-menu"></a>
+        <a id="menu-title" href="https://maxiuyulife.github.io">
+            岫玉的小栈
+        </a>
+        <nav id="menu-main" class="menu-main">
+            <ul>
+                <li id="menu-item" class="menu-item">
+                    <div id="tp-weather-widget"></div>
+                </li>
+                
+                    <li id="menu-item" class="menu-item">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/archives">
+                            归档
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/tags">
+                            标签
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/post/about">
+                            关于
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+        <form id="gridea-search-form" class="searchform" data-update="1677667644123" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+    </div>
+    <div id="mobile-menu">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1677667644123" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+        <nav class="menu">
+            <ul style="list-style: none;">
+                
+                    <li class="page_item page-item-2">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/archives">
+                            归档
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/tags">
+                            标签
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/post/about">
+                            关于
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+    </div>
+    <a id="theme-btn" class="theme-btn" onclick="App.changeTheme()"><i id="themeIcon" class="Card Card-moon"></i></a>
+</header>
+        <div id="main">
+            <div id="main-part">
+                <div class="lite-item">
+                    <article class="post post-type real-post">
+                        <header class="post-type-header">
+                            
+                                <div class="thumbnail-link" style="background-image: url('https://i0.hdslb.com/bfs/article/5a1960d15ad356dd4a62a6fdca3f36f23c61b1ea.png@942w_89h_progressive.webp')"></div>
+                                
+                                        <div class="thumbnail-shadow">
+                                            <h1 class="post-title">
+                                                被讨厌的勇气（阅读书摘）
+                                            </h1>
+                                            <div class="post-info">
+                                                <span class="post-category"><i class="Card Card-novel"></i>
+                                        
+                                            <span onclick="javascript:top.location='https://maxiuyulife.github.io/wLCHtigGM/'">阅读</span>
+                                                
+                                                    </span>
+                                                    <span class="post-view">
+                                                    
+                                                        &nbsp;•&nbsp;
+                                                    <span id="/post/5hg2DdyZu/" class="leancloud_visitors" data-flag-title="被讨厌的勇气（阅读书摘）">
+                                                <i class="Card Card-view"></i>&nbsp;阅读量&nbsp;
+                                                <i class="leancloud-visitors-count">0</i>
+                                            </span>
+
+                                                    
+                                                            </span>&nbsp;•&nbsp;
+
+                                                            <span class="post-readtime">阅读时间:
+                                            8.8分</span>
+                                                            <span class="post-edit"></span></div>
+                                        </div>
+                                        <div class="post-relative">
+                                            <img alt="岫玉的小栈" src="https://maxiuyulife.github.io/images/avatar.png?v=1677667644123" srcset="https://maxiuyulife.github.io/images/avatar.png?v=1677667644123" class="avatar avatar-100 photo" width="100" height="100">
+                                            <span class="post-type-author"><a href="https://maxiuyulife.github.io" title="由岫玉的小栈发布" rel="author">岫玉的小栈<i class="Card Card-certify"></i></a></span>
+                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2023-02-26</span>
+                                        </div>
+                        </header>
+                        <div class="post-main post-type-main">
+                            <div class="post-content">
+                                <div class="post-content-real">
+                                    <p>1.你想“变成别人”吗？<br>
+<strong>杨绛先生说过:“无论人生上到哪一层台阶，阶下有人在仰望你，阶上又有人在俯视你，你抬头自卑，低头自得，唯有平视才能看见真实的自己。”要学会发现自己的闪光点。</strong><br>
+2.你在人生的某个阶段里选择了“不幸”。这既不是因为你生在了不幸的环境中，也不是因为你陷入了不幸的境地中，而是因为你认为“不幸”对你自身而言是一种“善”。<br>
+<strong>《认知觉醒》中提过“受苦比解决问题来得容易，承受不幸比享受幸福来得简单。这极符合人类不愿动脑的天性。因为解决问题需要动脑，享受幸福也需要动脑平衡各种微妙的关系，而承受痛苦则只需要陷在那里不动。”</strong><br>
+3.例如，先生您与如此多的书相伴，不断地阅读新书，不断地接受新知识，可以说知识也就会不断地积累。书读得越多，知识量也就越大。掌握了新的价值观就会感觉自己有所改变。<br>
+<strong>只要我还一直读书，我就能够一直理解自己的痛苦，一直与自己的无知、狭隘、偏见、阴暗见招拆招。很多人说和自己握手言和，我不要做这样的人，我要拿石头打磨我这块石头。会一直读书，一直痛苦，一直爱着从痛苦荒芜里生出的喜悦。乘兴而来，尽兴而归，在一生中这是很难得很难得的一件事。</strong><br>
+4.为什么那么急于得到答案呢？答案不应该是从别人那里得到，而应该是自己亲自找出来。从别人那里得到的答案只不过是对症疗法而已，没有什么价值。<br>
+<strong>曾经在面对困难、抉择的时候，我总是喜欢请教老师、长辈、朋友：如果是你，你会怎么办？你怎么选择呢？到底什么是正确的？你觉得什么是适合我的呢？他们给的答案让我觉得“对，也不对”。多次尝试之后，我依然是迷茫的、困惑的。后来我发现，这个世界上没有任何一个人能够指引我到达理想的彼岸。无论是所谓的成功人士也好、了解自己的父母也罢，还是经历相似的挚友，都无法真正做到这一点。但自己可以，也唯有自己可以。现在的我产生困惑时，依然会请他们给我建议，因为我想通过倾听不同人群的想法打开自己的思路，但我不再像小孩子那样完全依赖于他们的答案，而是由内心生出一个“更高的、成人的自我”去指引自己找到正确的答案、做出适合的决定，活出属于自己独一无二的人生。</strong></p>
+<p><strong>有时我们太过于急躁，不能接受失败，也不能接受所谓“浪费”的沉没成本，迫切地想要寻求他人的帮助和精神慰藉，盲目崇拜或者信赖“过来人”的见解和经验，把自己的体验、经验和想法放得很低，想要走捷径却恰恰忽视了最适合你自身发展的部分。其实我们还很年轻，也不用畏惧走了什么弯路，更重要的是你是否有孤身一人走下去的勇气，以及对自我的肯定与信心。</strong><br>
+5.这就是哲人的主张。哲人所倡导的“目的论”是一种彻底颠覆正统心理学中的因果论的思想，这对青年来说根本无法接受。那么，该从何处破论呢？<br>
+<strong>不可否认，过去造就(影响)了现在，但拿不可改变的过去推导出现在不能改变，有点牵强。无论何时何境，只要我们对未来(目的)仍有期待，即刻行动，永远不晚。</strong><br>
+6.您是说问题不在于“发生了什么”，而在于“如何诠释”？<br>
+<strong>既定事实无法改变，但人的主观情绪可以改变，看问题的角度可以改变，一味的纠结在“原因论”中，纠结为什么会发生这样那样的事，纠结自己为什么没有这样那样做，不如换个角度，回望这些过去的既定事实要达到什么目的，这些过去的事情教会了“我”什么，带着“目的论”看问题，要比带着“原因论”看问题更能躲开那些悲观的情绪的侵蚀，更容易“走出来”。</strong><br>
+7.但是，如果你说“人是无法抵抗感情的存在”，那我就要坚决地否定这种观点了。我们并不是在感情的支配下而采取各种行动。而且，在“人不受感情支配”这个层面上，进而在“人不受过去支配”这个层面上，阿德勒心理学正是一种与虚无主义截然相反的思想和哲学。<br>
+<strong>以后一天我在思考一个问题。这么多年我都是以感情来衡量一个人的对错。这么说可以主观一点，或者不是很客观。就是假如是一个人，他这件事情做的很公平正义。显得比较正直，我自认为我的感情上就觉得他是个好人。但是我却忘了事物有正反的两面，他在这一点上可能做的很好。但是他一是一个心灵上也可能是一个残缺的人。所以正是如此，我们就要明白更多的事情。那天，我自己进入了深思，想着想着，我突然觉得其实我们也并非需要情感。路过人生没有那些多余的乱七八糟的情感。或许过的也不是那么糟糕。当然这里强调的并非那些亲情，友情上面一些很重要的情感。而是那些对于不必要的人，不必要的事，使用的那些不必要的情绪。</strong><br>
+8.就这样，母亲用客客气气的语气交谈了大约5分钟之后挂了电话，接着又勃然变色，开始训斥女儿。<br>
+<strong>一个人可以为了大发雷霆而制造怒气，也可以为了讲道理而心平气和，他采取的手段不同，但他要达到的目的却是相同的，那就是——占据事理的优势制高点，让对方认错，不同之处在于，大发雷霆能起到震慑对方的效果，讲道理则和风细雨。如果服务员职业素养不高，和风细雨的方式有可能在双方交流的过程中出现变数，让并不抵抗的对方开始抵抗，屈服认错变得并非顺理成章。<br>
+母亲一开始训斥女儿，电话进来后能够迅速转换情绪，变得彬彬有礼，只因为她意识到对方是女儿的班主任。如果对方是母亲的上司或老板，她可能不仅仅是彬彬有礼，还可能卑躬屈膝。挂断电话之后，母亲又勃然变色，开始训斥女儿，其实，此时她的情绪已经平复，她可以继续通过高声来震慑女儿，也可以通过柔声细语来说教女儿，不管用哪种手段，她的目的都是让女儿听她的话。或许在她看来，高声震慑更能达到目的。<br>
+两个事例说明，愤怒并不是究竟目的，它只不过是一种手段，一种在行为主体看来更容易达到目的的手段。如果通过不同的手段在类似的效率水平上都能达到目的，那我们就可以收放自如地使用它们，并摒弃愤怒、斥责、谩骂、惩罚等负面手段。</strong><br>
+9.的朋友并不是因为不安才无法走出去的。事情的顺序正好相反，我认为他是由于不想到外面去，所以才制造出不安情绪。<br>
+<strong>1.<mark>「自我设限」随便找了个理由让自己处于温室中，哪怕欺骗自己寻找到一份原本不存在的问题来劝说自己也都可以。</mark></strong><br>
+<strong>2.“设限”这件事,细想起来好像真的是因我们自己而起,因为害怕不想尝试,因为不想尝试反复合理化这件事情不可行的因素,直至确认。</strong><br>
+<strong>“外面&quot;有些什么,我们已经通过丰富的想象填满,于是迟迟不肯迈步,而另一个我们同时又会后悔或是可惜我们没有迈出这一步,这其实就是内耗的过程 可是我们常常深陷漩涡内而不自知，就拿我自己来说 人是真的非常容易以各种不好的想象来消耗自己,反复踟蹰,纠结又痛苦，真的要去做某事 就是会害怕 做决定也会害怕,究其原因，是怕承受不了某个决定带来的后果，可这后果又偏偏是不做就不知道的</strong><br>
+10.再怎么找原因也无法改变一个人<br>
+**如果你想做就会去找方法，不想做就会去找借口。明确当下的目标，克服内心的懒惰，事事找原因的时刻就少了。<br>
+<strong>接受每一个不同的个体。</strong><br>
+<strong>每个人的花期不同，不必焦虑有人比你提前拥有。</strong><br>
+<strong>人跟人的生活节奏不一样。</strong><br>
+<strong>有人3分钟泡面，有人3小时煲汤，有人的外卖已送达，有人刚切好蒜苔和肉。</strong><br>
+<strong>烧烤摊上最快的菜是拍黄瓜，有些包子第一口咬不到肉。</strong><br>
+<strong>你选择了你要的方式，就坚定下去，别胡思乱想。</strong><br>
+<strong>杨绛曾写道：<mark>“我们总是为了太多遥不可及的东西去奔命，却忘了人生真正的幸福不过是灯火阑珊的温暖，和柴火油盐的充实。</mark></strong><br>
+<strong>每年的最后一天，回想起这一年里，无论你赚钱是多是少，经历的事情是好是坏，请记住，如果这一年你很健康，那就是最好的一年。”</strong></p>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-copyright">
+                                作者:
+                                岫玉的小栈<br>永久链接:
+                                    <a href="https://maxiuyulife.github.io/5hg2DdyZu/" title="被讨厌的勇气（阅读书摘）">
+                                        https://maxiuyulife.github.io/5hg2DdyZu/
+                                    </a><br> 协议: MIT License
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <style>
+                    .prev:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                    
+                    .next:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                </style>
+                <div class="lite-item nearby-article">
+                    
+                            
+                                <div class="nearby-article-right" style="padding: 10px;">
+                                    <a class="next" rel="next" href="https://maxiuyulife.github.io/hello-gridea/">
+                                        Hello Gridea<i class="fa fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                
+                </div>
+                <!--Share-->
+                <span style="margin-right:15px">
+    <i class="post-share"></i>
+    <span>&#x5206;&#x4EAB;:</span>
+                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://maxiuyulife.github.io/5hg2DdyZu/"><i class="fa fa-qrcode"></i></a>
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://maxiuyulife.github.io/5hg2DdyZu/&sharesource=qzone&title=被讨厌的勇气（阅读书摘）&pics=https://maxiuyulife.github.io/images/avatar.png?v=1677667644123&summary="><i class="fa fa-qq"></i></a>
+                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://maxiuyulife.github.io/5hg2DdyZu/&sharesource=weibo&title=被讨厌的勇气（阅读书摘） + " - " + &pic="https://maxiuyulife.github.io/images/avatar.png?v=1677667644123"><i class="fa fa-weibo "></i></a>
+                </span>
+                
+                                            
+            </div>
+            <div id="sidebar">
+    <ul>
+        
+            <li class="lite-item">
+                <header class="lite-item-header">
+                    <h3 class="lite-item-title"><i class="Card Card-hitokoto"></i>&nbsp;&#x4E00;&#x8A00;</h3>
+                </header>
+                <div class="textwidget">
+                    <p>
+                        <b id="hitokoto"></b>
+                    </p>
+                </div>
+            </li>
+            
+                <!--
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        
+                            <a href="" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
+                                <i class="fa fa-tags" aria-hidden="true"></i>
+                            </a>
+                            
+                    </div>
+                </li>-->
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        <div id='tags' style="height: auto;width: 360;"></div>
+                        <script src="https://maxiuyulife.github.io/media/js/svg3dtagcloud.min.js"></script>
+                        <script>
+                            $(document).ready(function() {
+                                var entries = ([
+                                    
+                                     {
+                                        label: '🏷阅读',
+                                        url: 'https://maxiuyulife.github.io/wLCHtigGM/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷Gridea',
+                                        url: 'https://maxiuyulife.github.io/knZ5hmu1A/',
+                                        target: '_button'
+                                    }
+                                    
+                                    
+                                ]);
+                                var settings = {
+                                    entries: entries, //数据
+                                    width: 300, //宽度
+                                    height: 300, //高度
+                                    radius: '50%',
+                                    radiusMin: 50,
+                                    bgDraw: false, //是否显示背景
+                                    bgColor: '#fff', //背景颜色
+                                    opacityOver: 1.00,
+                                    opacityOut: 0.05,
+                                    opacitySpeed: 6,
+                                    fov: 360,
+                                    speed: 0.3, //旋转的速度
+                                    fontFamily: 'Oswald, Arial, sans-serif',
+                                    fontSize: '18', //默认字体大小
+                                    fontColor: '#666', //默认字体颜色
+                                    fontWeight: 'normal', //bold
+                                    fontStyle: 'normal', //italic 
+                                    fontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    fontToUpperCase: true,
+                                    tooltipFontFamily: 'Oswald, Arial, sans-serif',
+                                    tooltipFontSize: '16',
+                                    tooltipFontColor: 'red',
+                                    tooltipFontWeight: 'normal', //bold
+                                    tooltipFontStyle: 'normal', //italic 
+                                    tooltipFontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    tooltipFontToUpperCase: false,
+                                    tooltipTextAnchor: 'left',
+                                    tooltipDiffX: 0,
+                                    tooltipDiffY: 5
+
+                                };
+
+                                //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+                                $('#tags').svg3DTagCloud(settings);
+                            });
+                        </script>
+                    </div>
+                </li>
+                
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    <div id="player"></div>
+                    
+                        <li class="lite-item">
+                            <header class="lite-item-header">
+                                <h3 class="lite-item-title">
+                                    &#x1F3B5;&#x97F3;&#x4E50;
+                                </h3>
+                            </header>
+                            <div class="textwidget">
+                                <p>
+                                    <div id="playerbox"></div>
+                                </p>
+                            </div>
+                        </li>
+                        
+                            <script>
+                                function LoadPlayer() {
+                                    var music_array = [];
+                                    
+                                    music_array.push({
+                                        name: '日落大道',
+                                        url: 'http://music.163.com/song/media/outer/url?id=36392029.mp3',
+                                        artist: '梁博',
+                                        cover: 'http://p1.music.126.net/bkBg46eD1bS9D2mzxnKAnQ==/3395291910036707.jpg?param=130y130',
+                                    });
+                                    
+                                    
+                                    const ap = new APlayer({
+                                        container: document.getElementById('playerbox'),
+                                        audio: music_array
+                                    });
+                                    
+                                }
+                                LoadPlayer();
+                            </script>
+                            
+                                
+                                    
+                                        
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="lite-item-title">
+                                                        
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            
+                                                
+                                                    <li class="lite-item">
+                                                        <header class="lite-item-header">
+                                                            <h3 class="lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
+                                                        </header>
+                                                        <div class="textwidget">
+                                                            
+                                                                
+                                                                    <p onclick="javascript:top.location='https://blog.itjoker.cn'"><span class="link_a"><a href="https://blog.itjoker.cn" alt="ITJoker ">ITJoker -ITJoker&#39;s Blog</a></span></p>
+
+                                                                    
+                                                                        
+                                                        </div>
+                                                    </li>
+    </ul>
+</div>
+        </div>
+
+</body>
+<footer id="foot">
+    <a class="back-to-top" href="#"><i class="Card Card-top" ></i><span class="back-to-top-text">0%</span></a>
+    <div class="copyright">
+        Powered by <a href="岫玉" target="_blank">Gridea</a>
+            
+                    
+                            <a href="https://blog.itjoker.cn">
+                                Theme - Card
+                            </a>&nbsp;|&nbsp; &#x7248;&#x6743;&#x6240;&#x6709; &copy;
+                            <script>
+                                var date = new Date();
+                                data2 = new Date(buildTime.replace(/-/g, "/"));
+                                nowYear = date.getFullYear().toString()
+                                buildYear = data2.getFullYear().toString();
+                                if (buildYear == nowYear) {
+                                    document.write('<span class="my-face">' + nowYear + '</span>');
+                                } else {
+                                    document.write(buildYear + '-<span class="my-face">' + nowYear + '</span>');
+                                }
+                            </script>
+
+                            <a href="https://maxiuyulife.github.io">
+                                岫玉的小栈
+                            </a>&nbsp;|&nbsp;Powered by
+                            <a href="https://coding.net" target="_blank">
+                                Coding.net
+                            </a>
+    </div>
+    <script>
+        let back2TopText = document.querySelector('.back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.hitokoto();
+        
+        
+        App.weather();
+        
+        var themeIcon = document.getElementById("themeIcon");
+        const currentTheme = window.localStorage.getItem('theme');
+        App.clearLog();
+        App.outputlog();
+        var logo = '%c岫玉的小栈\'%cBlog';
+        console.info(
+            logo,
+            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
+        );
+        $('img').attr('data-fancybox', 'images');
+    </script>
+</footer>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            }, {
+                left: "$",
+                right: "$",
+                display: false
+            }]
+        });
+    </script>
+
+</html>

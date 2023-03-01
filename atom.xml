@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://maxiuyulife.github.io</id>
+    <title>岫玉的小栈</title>
+    <updated>2023-03-01T10:47:26.925Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://maxiuyulife.github.io"/>
+    <link rel="self" href="https://maxiuyulife.github.io/atom.xml"/>
+    <subtitle>你看那些花儿，终有一天会为我开放。</subtitle>
+    <logo>https://maxiuyulife.github.io/images/avatar.png</logo>
+    <icon>https://maxiuyulife.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 岫玉的小栈</rights>
+    <entry>
+        <title type="html"><![CDATA[被讨厌的勇气（阅读书摘）]]></title>
+        <id>https://maxiuyulife.github.io/5hg2DdyZu/</id>
+        <link href="https://maxiuyulife.github.io/5hg2DdyZu/">
+        </link>
+        <updated>2023-02-26T14:44:11.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://maxiuyulife.github.io/hello-gridea/</id>
+        <link href="https://maxiuyulife.github.io/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></content>
+    </entry>
+</feed>
